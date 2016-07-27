@@ -5,6 +5,34 @@
 
 // use the main method only for calling the function where your logic lies. :-)
 
+<<<<<<< HEAD
+public class ThirdGreatest {
+
+	public ThirdGreatest() {}
+		// TODO Auto-generated constructor stub
+
+		/**
+	 * @param args
+		 * @return
+	 */
+	public static String main(String[] StrArr) {
+		// TODO Auto-generated method stub
+		String result = "null";
+		String SortedString = "null";
+		boolean canSort = true;
+		while(canSort){
+			for(int i = 0;i<StrArr.length - 1;i++){
+				if(StrArr[i].length()<StrArr[i+1].length()){
+					SortedString = StrArr[i+1];
+					StrArr[i] = StrArr[i+1];
+					StrArr[i+1] = SortedString;
+					canSort = false;
+				}
+			}
+		}
+
+return StrArr[2];}}
+=======
 public class ThirdSort {
 
     /**
@@ -31,3 +59,4 @@ public class ThirdSort {
     }
 
 }
+>>>>>>> a20d5137c9c9be7306075534c983d49e33a12cdb
